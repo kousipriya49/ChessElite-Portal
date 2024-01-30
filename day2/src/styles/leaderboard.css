@@ -1,0 +1,130 @@
+.leaderboard-App {
+    /* font-family: sans-serif; */
+    text-align: center;
+  }
+  
+  .leaderboard-html,
+  .leaderboard-body {
+    background: #35425b;
+    scroll-behavior: smooth;
+    font-size: 2px;
+
+  }
+  
+  .leaderboard-table-lead {
+    /* display: flex; */
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 550px;
+    /* font-size: 1rem; */
+    font-size: 2px;
+
+    line-height: 0.5;
+    background: #036550;
+  }
+  
+  .leaderboard-table-lead-white {
+    display: flex;
+    font-size: 2px;
+    width: 550px;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    /* font-size: 1.5rem; */
+    line-height: 0.5;
+    background: #fff;
+  
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .leaderboard-table-header {
+    display: flex;
+    font-size: 2px;
+
+    flex-flow: row nowrap;
+  }
+  
+  .leaderboard-small-font {
+    /* font-size: 1.5rem !important; */
+  }
+  
+  .leaderboard-smaller-font {
+    /* font-size: 1.1rem !important; */
+    margin-top: 8px !important;
+  }
+  
+  .leaderboard-table-row-item {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0.5em;
+    word-break: break-word;
+    font-size: 10px;
+  }
+  
+  .leaderboard-white {
+    color: #fff;
+  }
+  
+  .leaderboard-one {
+    flex: 0.5 1 0;
+    min-width: 50px;
+    padding-right: 0 !important;
+  }
+  
+  .leaderboard-two {
+    flex: 5 1 0;
+  }
+  
+  .leaderboard-three {
+    flex: 0.8 1 0;
+    justify-content: right;
+    min-width: 70px;
+  }
+  
+  .leaderboard-leaderboard {
+    padding: 20px;
+    background:  #fff;
+    font-size: 1px;
+    width: fit-content;
+    height:300px;
+  }
+  
+  .leaderboard-header-title {
+    padding: 20px;
+    display: block;
+    position: relative;
+  }
+  
+  @media only screen and (max-width: 60px) {
+    .leaderboard-leaderboard {
+      padding: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 100px) {
+    .leaderboard-small-font {
+      /* font-size: 1rem !important; */
+    }
+  
+    .leaderboard-smaller-font {
+      /* font-size: 0.75rem !important; */
+      margin-top: 8px !important;
+    }
+  
+    .leaderboard-table-row-item {
+      font-size: 1rem;
+    }
+  
+    .leaderboard-logo-gen {
+      width: 50px;
+    }
+  }
+  
+  .leaderboard-logo-gen {
+    position: absolute;
+    right: 10px;
+    width: 4rem;
+    top: 12px;
+  }
+  

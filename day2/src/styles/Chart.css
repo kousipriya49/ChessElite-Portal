@@ -1,0 +1,13 @@
+.Chart {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+  }
+  .kp
+  {
+    margin-left: 330px;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /
+  }
